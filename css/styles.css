@@ -649,8 +649,7 @@ img {
 }
 
 .modal-btn-icon {
-  fill: transparent;
-  stroke: #e7e9fc;
+  fill: #2e2f42;
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
