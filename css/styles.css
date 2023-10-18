@@ -532,6 +532,49 @@ img {
 .footer-icon {
 }
 
+.footer-bottom {
+  margin-left: 80px;
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* align-items: center; */
+}
+
+.footer-form-input {
+  width: 264px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  background-color: transparent;
+  margin-right: 24px;
+  outline: transparent;
+  padding: 8px 16px;
+}
+
+.footer-form-input::placeholder {
+  color: #fff;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+}
+
+.footer-form-btn {
+  /* width: 165px; */
+  height: 40px;
+  display: inline-flex;
+  padding: 8px 24px;
+  /* justify-content: center; */
+  /* align-items: center; */
+  gap: 16px;
+  border-radius: 4px;
+  color: #ffffff;
+  background: #4d5ae5;
+  border: none;
+}
+
+.form-btn-icon {
+}
+
 /** ================ backdrop ================ **/
 
 .backdrop {
