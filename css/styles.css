@@ -539,14 +539,19 @@ img {
   /* align-items: center; */
 }
 
+.footer-form {
+  display: flex;
+  gap: 24px;
+}
+
 .footer-form-input {
   width: 264px;
   height: 40px;
   border-radius: 4px;
   border: 1px solid #fff;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  color: #ffffff;
   background-color: transparent;
-  margin-right: 24px;
   outline: transparent;
   padding: 8px 16px;
 }
@@ -556,6 +561,8 @@ img {
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
+  display: flex;
+  justify-content: center;
 }
 
 .footer-form-btn {
