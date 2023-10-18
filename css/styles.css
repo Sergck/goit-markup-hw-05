@@ -126,6 +126,7 @@ img {
 .current {
   position: relative;
   color: #2e2f42;
+  color: #404bbf;
 }
 
 .current::after {
@@ -136,6 +137,7 @@ img {
   height: 4px;
   background-color: #404bbf;
   border-radius: 2px;
+  width: 100%;
 }
 
 .address-header {
