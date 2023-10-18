@@ -665,6 +665,42 @@ img {
   letter-spacing: 0.04em;
 }
 
+.modal-check:checked + .check-text .check-text-box {
+  background-color: #404bbf;
+  border: none;
+  fill: #31d0aa;
+}
+
+.check-text {
+  display: flex;
+  align-items: center;
+  color: #8e8f99;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+}
+
+.check-text-box {
+  display: block;
+  width: 16px;
+  height: 16px;
+  stroke-width: 1px;
+  stroke: rgba(46, 47, 66, 0.4);
+  margin-right: 8px;
+  fill: transparent;
+}
+
+.check-text-icon {
+}
+
+.check-text-link {
+  color: #4d5ae5;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.04em;
+  text-decoration-line: underline;
+}
+
 .modal-form-btn {
   /* margin: 0 auto; */
   width: 169px;
