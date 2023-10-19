@@ -662,8 +662,8 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-btn-icon:hover,
-.modal-btn-icon:focus {
+.modal-btn:hover .modal-btn-icon,
+.modal-btn:focus .modal-btn-icon {
   fill: #ffffff;
 }
 
