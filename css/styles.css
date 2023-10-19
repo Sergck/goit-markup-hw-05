@@ -650,13 +650,13 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-btn:hover {
+.modal-btn:hover .modal-btn-icon:hover {
   fill: #ffffff;
   background-color: #404bbf;
   border: none;
 }
 
-.modal-btn:focus {
+.modal-btn:focus .modal-btn-icon:focus {
   fill: #ffffff;
   background-color: #404bbf;
   border: none;
