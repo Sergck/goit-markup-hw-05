@@ -657,9 +657,10 @@ img {
 
 .modal-btn .modal-btn-icon {
   fill: #2e2f42;
-  transition-property: fill;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  /* transition-property: fill;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .modal-btn:hover .modal-btn-icon,
@@ -775,7 +776,6 @@ img {
 }
 
 .input[type="checkbox"] + label > span {
-  /* .check-text-box { */
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -792,11 +792,25 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.input[type="checkbox"]:checked + label > span {
-  /* .modal-check:checked + .check-text .check-text-box { */
+/* .input[type="checkbox"]:checked + label > span { */
+.modal-check:checked + .check-text .check-text-box {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
+}
+
+.check-text-box {
+  width: 16px;
+  height: 16px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
 }
 
 .check-text-icon {
