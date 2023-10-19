@@ -799,14 +799,10 @@ img {
 }
 
 .check-text-box {
-  display: block;
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
-  transition-property: background-color, border, fill;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -814,6 +810,9 @@ img {
   stroke: rgba(46, 47, 66, 0.4);
   margin-right: 8px;
   fill: transparent;
+  transition-property: background-color, border, fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .check-text-icon {
@@ -827,12 +826,12 @@ img {
   text-decoration-line: underline;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
-  transition-property: background-color, border, fill;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  transition-property: background-color, border, fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-form-btn {
