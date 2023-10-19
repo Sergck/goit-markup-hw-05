@@ -644,6 +644,7 @@ img {
 
 .modal-btn:hover,
 .modal-btn:focus {
+  fill: #ffffff;
   background-color: #404bbf;
   border: none;
 }
@@ -673,6 +674,14 @@ img {
 
 .modal-field {
   margin-bottom: 8px;
+}
+
+.modal-field-textarea {
+  margin-bottom: 16px;
+}
+
+.modal-field-checkbox {
+  margin-bottom: 24px;
 }
 
 .modal-label {
@@ -761,7 +770,7 @@ img {
 .modal-check:checked + .check-text .check-text-box {
   background-color: #404bbf;
   border: none;
-  fill: #31d0aa;
+  fill: #f4f4fd;
 }
 
 .check-text {
@@ -777,6 +786,14 @@ img {
   display: block;
   width: 16px;
   height: 16px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;
+  transition-property: background-color, border, fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   stroke-width: 1px;
   stroke: rgba(46, 47, 66, 0.4);
   margin-right: 8px;
@@ -803,7 +820,8 @@ img {
 }
 
 .modal-form-btn {
-  /* margin: 0 auto; */
+  display: block;
+  margin: 0 auto;
   min-width: 169px;
   color: #ffffff;
   text-align: center;
@@ -815,7 +833,7 @@ img {
   cursor: pointer;
   border-radius: 4px;
   border: none;
-  background: #4d5ae5;
+  background-color: #4d5ae5;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   transition-property: background-color;
   transition-duration: 250ms;
