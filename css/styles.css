@@ -655,7 +655,7 @@ img {
   border: none;
 }
 
-.modal-btn-icon {
+.modal-btn-icon .modal-btn-icon {
   fill: #2e2f42;
   transition-property: fill;
   transition-duration: 250ms;
