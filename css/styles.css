@@ -789,8 +789,10 @@ img {
   fill: transparent;
 }
 
-/* .input[type="checkbox"] + label > span { */
 .modal-check {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -798,16 +800,12 @@ img {
   stroke-width: 1px;
   stroke: rgba(46, 47, 66, 0.4);
   margin-right: 8px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
   fill: transparent;
   transition-property: background-color, border, fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* .input[type="checkbox"]:checked + label > span { */
 .modal-check:checked + .check-text .check-text-box {
   background-color: #404bbf;
   border: none;
