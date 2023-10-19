@@ -650,14 +650,8 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-btn:hover .modal-btn-icon:hover {
-  fill: #ffffff;
-  background-color: #404bbf;
-  border: none;
-}
-
-.modal-btn:focus .modal-btn-icon:focus {
-  fill: #ffffff;
+.modal-btn:hover,
+.modal-btn:focus {
   background-color: #404bbf;
   border: none;
 }
@@ -669,10 +663,7 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-btn-icon:hover {
-  fill: #ffffff;
-}
-
+.modal-btn-icon:hover,
 .modal-btn-icon:focus {
   fill: #ffffff;
 }
